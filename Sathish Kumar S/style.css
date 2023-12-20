@@ -1,0 +1,139 @@
+body{
+    background-color:  #7b67c3;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.in_container{
+   
+    display: flex;
+    box-shadow:1px 1px 1px  gray;
+    background-color: white;
+    
+}
+
+
+
+.container{
+    margin:100px auto;
+    width: 80%;
+}
+h1{
+    text-align: center;
+}
+
+
+form{
+    
+    padding-bottom: 50px;
+    border-right: 1px solid black;
+   
+   
+}
+
+#submit{
+    margin-top: 15px;
+    padding:5px;
+
+}
+
+form>*{
+    padding: 10px;
+}
+
+form>*>*,form>button{
+    
+padding-top: 20px;
+ display: block;
+ width: 60%;
+margin: 0 auto;
+ 
+}
+
+.in_container>*{
+   width: 50%;
+}
+
+.header{
+
+   
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+   border-bottom:1px solid lightgrey;
+   
+}
+
+label{
+    font-size: 20px;
+   padding-bottom: 10px;
+}
+
+.amount>i{
+    font-size: 20px;
+    color: #7b67c3;
+  
+}
+
+input{
+    font-size: 17px;
+    border:none;
+    border-bottom: 1px solid black;
+    
+}
+
+
+
+h1{
+    font-size: 35px;
+   color: white;
+}
+
+button{
+   margin-top: 30px;
+   background-color: blue;
+   color: white;
+   border: none;
+   padding: 5px;
+}
+
+.row{
+    display: flex;
+   justify-content: space-around;
+   width: 90%;
+
+   align-items: center;
+
+}
+
+.list{
+    width: 100%;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    max-height:280px;
+    overflow: scroll;
+}
+
+.row>i{
+    cursor: pointer;
+    color: white;
+}
+
+.row:hover i{
+    color: red;
+}
+
+form>*>p{
+    line-height:0;
+}
+
+
+
+

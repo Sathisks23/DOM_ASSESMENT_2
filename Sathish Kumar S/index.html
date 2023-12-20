@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap'">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="heading">Shopping Cart</h1>
+
+        <div class="in_container">
+       
+
+            <form id="myform" action=""> <br>
+
+               <div id="name_div">
+                  <label for="pro_name">Product Name</label> 
+                  <input type="text" placeholder="Product" name="pro_name"> 
+                  <!-- <p >Invalid product Name</p>   -->
+               </div>
+
+              <div id="amount_div">
+               <label for="pro_price">Amount</label>
+               <input type="number" placeholder="amount" name="pro_price">
+               <!-- <p >Invalid amount </p> -->
+              
+              </div>
+                
+              <button id="submit" type="submit">Add to Cart</button>
+
+            </form>
+
+
+        <div class="item_div">
+       <div class="header">
+          <h2 class="name">Product Name</h2>
+          <h2 class="amount">Amount <i class="fa-solid fa-caret-up" title="Next Page"></i> 
+            
+         </div>
+        
+         <ul>
+
+            <li class="row">
+                <div class="list" ><p>name</p>  <p>1000</p></div> <i class="fa-solid fa-trash"></i>
+             </li>
+            
+             <li class="row">
+                <div class="list" ><p>name</p>  <p>1000</p></div> <i class="fa-solid fa-trash"></i>
+             </li>
+             <li class="row">
+                <div class="list" ><p>name</p>  <p>1000</p></div> <i class="fa-solid fa-trash"></i>
+             </li>
+
+             <li class="row">
+                <div class="list" ><p>name</p>  <p>1000</p></div> <i class="fa-solid fa-trash"></i>
+             </li>
+
+             <li class="row">
+                <div class="list" ><p>name</p>  <p>1000</p></div> <i class="fa-solid fa-trash"></i>
+             </li>
+
+             <li class="row">
+                <div class="list" ><p>name</p>  <p>1000</p></div> <i class="fa-solid fa-trash"></i>
+             </li>
+
+         </ul>
+         <hr>
+   <div class="row">
+    <p>Total amount</p>
+
+    <p>2000</p>
+
+   </div>
+
+        
+       
+        
+        </div>
+    </div>
+    
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
