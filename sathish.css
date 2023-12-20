@@ -1,6 +1,12 @@
 body{
     background-color:  #7b67c3;
     font-family: 'Varela Round', sans-serif;
+   
+}
+
+*{
+    padding: 2px;
+    margin: 2px;
 }
 
 
@@ -15,7 +21,7 @@ body{
 
 
 .container{
-    margin:100px auto;
+    margin:70px auto;
     width: 80%;
 }
 h1{
@@ -73,7 +79,7 @@ label{
 .amount>i{
     font-size: 20px;
     color: #7b67c3;
-  
+    cursor: pointer;
 }
 
 input{
@@ -104,7 +110,7 @@ button{
    width: 90%;
 
    align-items: center;
-
+   
 }
 
 .list{
@@ -119,23 +125,31 @@ ul{
     padding: 0;
     margin: 0;
    max-height:280px;
-    overflow: scroll ;
+    overflow-y: scroll ;
    
+}
+
+li:nth-last-of-type(3n-1){
+    
+    background-color: lightgray;
 }
 
 .row>i{
     cursor: pointer;
-    color: white;
+    color: rgb(234, 8, 8);
+    display: none;
 }
 
 .row:hover i{
-    color: red;
+    display: block;
 }
 
 form>*>p{
     line-height:0;
 }
 
-
+#totaldiv{
+    border-top:'1px solid black';
+}
 
 
